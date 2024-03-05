@@ -4,8 +4,7 @@ class Solution {
         
         while(n>0){
             answer += n%10;
-            int mok = n/10;
-            n = mok;
+            n = n/10;
         }
         
         return answer;
